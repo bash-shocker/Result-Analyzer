@@ -571,6 +571,8 @@ def calc():
 			print(f'\n\tNumber of students who failed = {fail36}')
 			print(f'\n\tNumber of students who couldnt attend = {at36}')
 			print(f'\n\tPass percentage = {((count36-(fail35+at36))/count36) * 100 }')
+		else :
+			print('\n\n\tsWrong input!!')
 
 
 		again = input('\n\n\n\tWant to check again (y/n)? : ')
