@@ -355,67 +355,67 @@ def calc():
 			print(f'\n\tNumber of students who failed = {fail}')
 			print(f'\n\tNumber of students who couldnt attend = {at}')
 			print(f'\n\tPass percentage = {((count-(fail+at))/count) * 100 }')
-		if user_inp == 'CE304' :
+		elif user_inp == 'CE304' :
 			print('\n\tAnalysis of DESIGN OF CONCRETE STRUCTURES II ')
 			print(f'\n\tNumber of students who passed = {count1-(fail1+at1)}')
 			print(f'\n\tNumber of students who failed = {fail1}')
 			print(f'\n\tNumber of students who couldnt attend = {at1}')
 			print(f'\n\tPass percentage = {((count1-(fail1+at1))/count1) * 100 }')
-		if user_inp == 'CE306' :
+		elif user_inp == 'CE306' :
 			print('\n\tAnalysis of COMPUTER PROGRAMMING AND COMPUTATIONAL TECHNIQUES ')
 			print(f'\n\tNumber of students who passed = {count2-(fail2+at2)}')
 			print(f'\n\tNumber of students who failed = {fail2}')
 			print(f'\n\tNumber of students who couldnt attend = {at2}')
 			print(f'\n\tPass percentage = {((count2-(fail2+at2))/count2) * 100 }')
-		if user_inp == 'CE308' :
+		elif user_inp == 'CE308' :
 			print('\n\tAnalysis of TRANSPORTATION ENGINEERING I ')
 			print(f'\n\tNumber of students who passed = {count3-(fail3+at3)}')
 			print(f'\n\tNumber of students who failed = {fail3}')
 			print(f'\n\tNumber of students who couldnt attend = {at3}')
 			print(f'\n\tPass percentage = {((count3-(fail3+at3))/count3) * 100 }')
-		if user_inp == 'HS300' :
+		elif user_inp == 'HS300' :
 			print('\n\tAnalysis of PRINCIPLES OF MANAGEMENT ')
 			print(f'\n\tNumber of students who passed = {count4-(fail4+at4)}')
 			print(f'\n\tNumber of students who failed = {fail4}')
 			print(f'\n\tNumber of students who couldnt attend = {at4}')
 			print(f'\n\tPass percentage = {((count4-(fail4+at4))/count4) * 100 }')
-		if user_inp == 'CE374' :
+		elif user_inp == 'CE374' :
 			print('\n\tAnalysis of AIR QUALITY MANAGEMENT ')
 			print(f'\n\tNumber of students who passed = {count5-(fail5+at5)}')
 			print(f'\n\tNumber of students who failed = {fail5}')
 			print(f'\n\tNumber of students who couldnt attend = {at5}')
 			print(f'\n\tPass percentage = {((count5-(fail5+at5))/count5) * 100 }')
-		if user_inp == 'CE332' :
+		elif user_inp == 'CE332' :
 			print('\n\tAnalysis of TRANSPORTATION ENGINEERING LAB ')
 			print(f'\n\tNumber of students who passed = {count6-(fail6+at6)}')
 			print(f'\n\tNumber of students who failed = {fail6}')
 			print(f'\n\tNumber of students who couldnt attend = {at6}')
 			print(f'\n\tPass percentage = {((count6-(fail6+at6))/count6) * 100 }')
-		if user_inp == 'CE334' :
+		elif user_inp == 'CE334' :
 			print('\n\tAnalysis of COMPUTER AIDED CIVIL ENGINEERING LAB ')
 			print(f'\n\tNumber of students who passed = {count7-(fail7+at7)}')
 			print(f'\n\tNumber of students who failed = {fail7}')
 			print(f'\n\tNumber of students who couldnt attend = {at7}')
 			print(f'\n\tPass percentage = {((count7-(fail7+at7))/count7) * 100 }')
-		if user_inp == 'CE352'  :
+		elif user_inp == 'CE352'  :
 			print('\n\tAnalysis of COMPREHENSIVE EXAM ')
 			print(f'\n\tNumber of students who passed = {count8-(fail8+at8)}')
 			print(f'\n\tNumber of students who failed = {fail8}')
 			print(f'\n\tNumber of students who couldnt attend = {at8}')
 			print(f'\n\tPass percentage = {((count8-(fail8+at8))/count8) * 100 }')
-		if user_inp == 'CE362'  :
+		elif user_inp == 'CE362'  :
 			print('\n\tAnalysis of GROUND IMPROVEMENT TECHNIQUES ')
 			print(f'\n\tNumber of students who passed = {count9-(fail9+at9)}')
 			print(f'\n\tNumber of students who failed = {fail9}')
 			print(f'\n\tNumber of students who couldnt attend = {at9}')
 			print(f'\n\tPass percentage = {((count9-(fail9+at9))/count9) * 100 }')
-		if user_inp == 'CE366'  :
+		elif user_inp == 'CE366'  :
 			print('\n\tAnalysis of TRAFFIC ENGINEERING AND MANAGEMENT ')
 			print(f'\n\tNumber of students who passed = {count10-(fail10+at10)}')
 			print(f'\n\tNumber of students who failed = {fail10}')
 			print(f'\n\tNumber of students who couldnt attend = {at10}')
 			print(f'\n\tPass percentage = {((count10-(fail10+at10))/count10) * 100 }')
-		if user_inp == 'CS302' :
+		elif user_inp == 'CS302' :
 			print('\n\tAnalysis of DESIGN AND ANALYSIS OF ALGORITHMS ')
 			print(f'\n\tNumber of students who passed = {count11-(fail11+at11)}')
 			print(f'\n\tNumber of students who failed = {fail11}')
@@ -427,152 +427,153 @@ def calc():
 			print(f'\n\tNumber of students who failed = {fail12}')
 			print(f'\n\tNumber of students who couldnt attend = {at12}')
 			print(f'\n\tPass percentage = {((count12-(fail12+at12))/count12) * 100 }')
-		if user_inp == 'CS306'  :
+		elif user_inp == 'CS306'  :
 			print('\n\tAnalysis of COMPUTER NETWORKSCS308 SOFTWARE ENGINEERING AND PROJECTMANAGEMENT ')
 			print(f'\n\tNumber of students who passed = {count13-(fail13+at13)}')
 			print(f'\n\tNumber of students who failed = {fail13}')
 			print(f'\n\tNumber of students who couldnt attend = {at13}')
 			print(f'\n\tPass percentage = {((count13-(fail13+at13))/count13) * 100 }')
-		if user_inp == 'CS368'  :
+		elif user_inp == 'CS368'  :
 			print('\n\tAnalysis of WEB TECHNOLOGIES  ')
 			print(f'\n\tNumber of students who passed = {count14-(fail14+at14)}')
 			print(f'\n\tNumber of students who failed = {fail14}')
 			print(f'\n\tNumber of students who couldnt attend = {at14}')
 			print(f'\n\tPass percentage = {((count14-(fail14+at14))/count14) * 100 }')
-		if user_inp == 'CS332' :
+		elif user_inp == 'CS332' :
 			print('\n\tAnalysis of MICROPROCESSOR LAB ')
 			print(f'\n\tNumber of students who passed = {count15-(fail15+at15)}')
 			print(f'\n\tNumber of students who failed = {fail15}')
 			print(f'\n\tNumber of students who couldnt attend = {at15}')
 			print(f'\n\tPass percentage = {((count15-(fail15+at15))/count15) * 100 }')
-		if user_inp == 'CS334'  :
+		elif user_inp == 'CS334'  :
 			print('\n\tAnalysis of NETWORK PROGRAMMING LAB')
 			print(f'\n\tNumber of students who passed = {count16-(fail16+at16)}')
 			print(f'\n\tNumber of students who failed = {fail16}')
 			print(f'\n\tNumber of students who couldnt attend = {at16}')
 			print(f'\n\tPass percentage = {((count16-(fail16+at16))/count16) * 100 }')
-		if user_inp == 'CS352'  :
+		elif user_inp == 'CS352'  :
 			print('\n\tAnalysis of COMPREHENSIVE EXAM ')
 			print(f'\n\tNumber of students who passed = {count17-(fail17+at17)}')
 			print(f'\n\tNumber of students who failed = {fail17}')
 			print(f'\n\tNumber of students who couldnt attend = {at17}')
 			print(f'\n\tPass percentage = {((count17-(fail17+at17))/count17) * 100 }')
-		if user_inp == 'EC302' :
+		elif user_inp == 'EC302' :
 			print('\n\tAnalysis of DIGITAL COMMUNICATION ')
 			print(f'\n\tNumber of students who passed = {count18-(fail18+at18)}')
 			print(f'\n\tNumber of students who failed = {fail18}')
 			print(f'\n\tNumber of students who couldnt attend = {at18}')
 			print(f'\n\tPass percentage = {((count18-(fail18+at18))/count18) * 100 }')
-		if user_inp == 'EC304' :
+		elif user_inp == 'EC304' :
 			print('\n\tAnalysis of VLSI ')
 			print(f'\n\tNumber of students who passed = {count19-(fail19+at19)}')
 			print(f'\n\tNumber of students who failed = {fail19}')
 			print(f'\n\tNumber of students who couldnt attend = {at19}')
 			print(f'\n\tPass percentage = {((count19-(fail19+at19))/count19) * 100 }')
-		if user_inp == 'EC306'  :
+		elif user_inp == 'EC306'  :
 			print('\n\tAnalysis of ANTENNA & WAVE PROPAGATIONS ')
 			print(f'\n\tNumber of students who passed = {count20-(fail20+at20)}')
 			print(f'\n\tNumber of students who failed = {fail20}')
 			print(f'\n\tNumber of students who couldnt attend = {at20}')
 			print(f'\n\tPass percentage = {((count20-(fail20+at20))/count20) * 100 }')
-		if user_inp == 'EC308' :
+		elif user_inp == 'EC308' :
 			print('\n\tAnalysis of EMBEDDED SYSTEMS ')
 			print(f'\n\tNumber of students who passed = {count21-(fail21+at21)}')
 			print(f'\n\tNumber of students who failed = {fail21}')
 			print(f'\n\tNumber of students who couldnt attend = {at21}')
 			print(f'\n\tPass percentage = {((count21-(fail21+at21))/count21) * 100 }')
-		if user_inp == 'EC312' :
+		elif user_inp == 'EC312' :
 			print('\n\tAnalysis of OBJECT ORIENTED PROGRAMMING')
 			print(f'\n\tNumber of students who passed = {count22-(fail22+at22)}')
 			print(f'\n\tNumber of students who failed = {fail22}')
 			print(f'\n\tNumber of students who couldnt attend = {at22}')
 			print(f'\n\tPass percentage = {((count22-(fail22+at22))/count22) * 100 }')
-		if user_inp == 'EC366' :
+		elif user_inp == 'EC366' :
 			print('\n\tAnalysis of REAL TIME OPERATING SYSTEMS')
 			print(f'\n\tNumber of students who passed = {count23-(fail23+at23)}')
 			print(f'\n\tNumber of students who failed = {fail23}')
 			print(f'\n\tNumber of students who couldnt attend = {at23}')
 			print(f'\n\tPass percentage = {((count23-(fail23+at23))/count23) * 100 }')
-		if user_inp == 'EC332' :
+		elif user_inp == 'EC332' :
 			print('\n\tAnalysis of COMMUNICATION ENGG LAB (ANALOG & DIGITAL) ')
 			print(f'\n\tNumber of students who passed = {count24-(fail24+at24)}')
 			print(f'\n\tNumber of students who failed = {fail24}')
 			print(f'\n\tNumber of students who couldnt attend = {at24}')
 			print(f'\n\tPass percentage = {((count24-(fail24+at24))/count24) * 100 }')
-		if user_inp == 'EC334' :
+		elif user_inp == 'EC334' :
 			print('\n\tAnalysis of MICROCONTROLLER LAB ')
 			print(f'\n\tNumber of students who passed = {count25-(fail25+at25)}')
 			print(f'\n\tNumber of students who failed = {fail25}')
 			print(f'\n\tNumber of students who couldnt attend = {at25}')
 			print(f'\n\tPass percentage = {((count25-(fail25+at25))/count25) * 100 }')
-		if user_inp == 'EC352' :
+		elif user_inp == 'EC352' :
 			print('\n\tAnalysis of COMPREHENSIVE EXAM ')
 			print(f'\n\tNumber of students who passed = {count26-(fail26+at26)}')
 			print(f'\n\tNumber of students who failed = {fail26}')
 			print(f'\n\tNumber of students who couldnt attend = {at26}')
 			print(f'\n\tPass percentage = {((count26-(fail26+at26))/count26) * 100 }')
-		if user_inp == 'EC370' :
+		elif user_inp == 'EC370' :
 			print('\n\tAnalysis of DIGITAL IMAGE PROCESSING ')
 			print(f'\n\tNumber of students who passed = {count27-(fail27+at27)}')
 			print(f'\n\tNumber of students who failed = {fail27}')
 			print(f'\n\tNumber of students who couldnt attend = {at27}')
 			print(f'\n\tPass percentage = {((count27-(fail27+at27))/count27) * 100 }')
-		if user_inp == 'EE302':
+		elif user_inp == 'EE302':
 			print('\n\tAnalysis of ELECTROMAGNETICS ')
 			print(f'\n\tNumber of students who passed = {count28-(fail28+at28)}')
 			print(f'\n\tNumber of students who failed = {fail28}')
 			print(f'\n\tNumber of students who couldnt attend = {at28}')
 			print(f'\n\tPass percentage = {((count28-(fail28+at28))/count28) * 100 }')
-		if user_inp == 'EE304'  :
+		elif user_inp == 'EE304'  :
 			print('\n\tAnalysis of ADVANCED CONTROL THEORY ')
 			print(f'\n\tNumber of students who passed = {count29-(fail29+at29)}')
 			print(f'\n\tNumber of students who failed = {fail29}')
 			print(f'\n\tNumber of students who couldnt attend = {at29}')
 			print(f'\n\tPass percentage = {((count29-(fail29+at29))/count29) * 100 }')
-		if user_inp == 'EE306' :
+		elif user_inp == 'EE306' :
 			print('\n\tAnalysis of POWER SYSTEM ANALYSIS ')
 			print(f'\n\tNumber of students who passed = {count30-(fail30+at30)}')
 			print(f'\n\tNumber of students who failed = {fail30}')
 			print(f'\n\tNumber of students who couldnt attend = {at30}')
 			print(f'\n\tPass percentage = {((count30-(fail30+at30))/count30) * 100 }')
-		if user_inp == 'EE308' :
+		elif user_inp == 'EE308' :
 			print('\n\tAnalysis of ELECTRIC DRIVES ')
 			print(f'\n\tNumber of students who passed = {count31-(fail31+at31)}')
 			print(f'\n\tNumber of students who failed = {fail31}')
 			print(f'\n\tNumber of students who couldnt attend = {at31}')
 			print(f'\n\tPass percentage = {((count31-(fail31+at31))/count31) * 100 }')
-		if user_inp == 'EE372' :
+		elif user_inp == 'EE372' :
 			print('\n\tAnalysis of BIOMEDICAL INSTRUMENTATION  ')
 			print(f'\n\tNumber of students who passed = {count32-(fail32+at32)}')
 			print(f'\n\tNumber of students who failed = {fail32}')
 			print(f'\n\tNumber of students who couldnt attend = {at32}')
 			print(f'\n\tPass percentage = {((count32-(fail32+at32))/count32) * 100 }')
-		if user_inp == 'EE332'  :
+		elif user_inp == 'EE332'  :
 			print('\n\tAnalysis of SYSTEMS AND CONTROL LAB ')
 			print(f'\n\tNumber of students who passed = {count33-(fail33+at33)}')
 			print(f'\n\tNumber of students who failed = {fail33}')
 			print(f'\n\tNumber of students who couldnt attend = {at33}')
 			print(f'\n\tPass percentage = {((count33-(fail33+at33))/count33) * 100 }')
-		if user_inp == 'EE334' :
+		elif user_inp == 'EE334' :
 			print('\n\tAnalysis of POWER ELECTRONICS & DRIVES ')
 			print(f'\n\tNumber of students who passed = {count34-(fail34+at34)}')
 			print(f'\n\tNumber of students who failed = {fail34}')
 			print(f'\n\tNumber of students who couldnt attend = {at34}')
 			print(f'\n\tPass percentage = {((count34-(fail34+at34))/count34) * 100 }')
-		if user_inp == 'EE352' :
+		elif user_inp == 'EE352' :
 			print('\n\tAnalysis of COMPREHENSIVE EXAM ')
 			print(f'\n\tNumber of students who passed = {count35-(fail35+at35)}')
 			print(f'\n\tNumber of students who failed = {fail35}')
 			print(f'\n\tNumber of students who couldnt attend = {at35}')
 			print(f'\n\tPass percentage = {((count35-(fail35+at35))/count35) * 100 }')
-		if user_inp == 'EE368' :
+		elif user_inp == 'EE368' :
 			print('\n\tAnalysis of SOFT COMPUTING ')
 			print(f'\n\tNumber of students who passed = {count36-(fail36+at36)}')
 			print(f'\n\tNumber of students who failed = {fail36}')
 			print(f'\n\tNumber of students who couldnt attend = {at36}')
 			print(f'\n\tPass percentage = {((count36-(fail35+at36))/count36) * 100 }')
+
 		else :
-			print('\n\n\tsWrong input!!')
+			print('\n\n\tWrong input!!')
 
 
 		again = input('\n\n\n\tWant to check again (y/n)? : ')
