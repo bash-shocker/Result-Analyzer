@@ -377,10 +377,13 @@ def calc():
 			print(f'\n\tPass percentage = {((count3-(fail3+at3))/count3) * 100 }')
 		if user_inp == 'HS300' :
 			print('\n\tAnalysis of PRINCIPLES OF MANAGEMENT ')
-			print(f'\n\tNumber of students who passed = {count4-(fail4+at4)}')
+			print(f'\n\tNumber of students who passed = 0')
 			print(f'\n\tNumber of students who failed = {fail4}')
 			print(f'\n\tNumber of students who couldnt attend = {at4}')
-			print(f'\n\tPass percentage = {((count4-(fail4+at4))/count4) * 100 }')
+			try:
+				print(f'\n\tPass percentage = {((count4-(fail4+at4))/count4) * 100 }')
+			except ZeroDivisionError:
+				print(f'\n\tPass percentage = 0')
 		if user_inp == 'CE374' :
 			print('\n\tAnalysis of AIR QUALITY MANAGEMENT ')
 			print(f'\n\tNumber of students who passed = {count5-(fail5+at5)}')
